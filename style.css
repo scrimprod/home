@@ -1,6 +1,10 @@
 body {
-    background: file:///Users/maximillianking/Desktop/Jackie_Poster.png
+  background-image: url('Images/Jackie_Poster.png');
+  background-position: right top; /* Position the background image to the right */
+  background-repeat: no-repeat;  /* Ensure the image does not repeat */
+  background-size: auto;         /* Adjust this as needed */
 }
+
     font-family: 'Comic Sans MS', cursive, sans-serif;
     color: #0000ff;
 }
