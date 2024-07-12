@@ -1,5 +1,9 @@
 body {
+<<<<<<< HEAD
   background-image: Images/Jackie_Poster.png
+=======
+  background-image: url Images/Jackie_Poster.png
+>>>>>>> c513af3b33ac013402d3a84cd543377b0af549bd
   background-position: right top; /* Position the background image to the right */
   background-repeat: no-repeat;  /* Ensure the image does not repeat */
   background-size: auto;         /* Adjust this as needed */
