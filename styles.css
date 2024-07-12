@@ -1,8 +1,8 @@
 body {
 <<<<<<< HEAD
-  background-image: url ('Images/Jackie_Poster.png')
+  background-image: url ('https://github.com/scrimprod/home/blob/main/Images/Jackie_Poster.png')
 =======
-  background-image: url ('Images/Jackie_Poster.png')
+  background-image: url ('https://github.com/scrimprod/home/blob/main/Images/Jackie_Poster.png')
 >>>>>>> bda5327fdb6577ce58f40d50e59ec5858ec80ad0
   background-position: right top; /* Position the background image to the right */
   background-repeat: no-repeat;  /* Ensure the image does not repeat */
