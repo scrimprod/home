@@ -32,13 +32,13 @@ body {
 }
 
 #gallery {
-  margin-top: 500px; /* Adjust this value to move the section down */
+  margin-top: 250px; /* Adjust this value to move the section down */
 }
 
 #contact {
   position: absolute;
-  bottom: 20px; /* Moves the section to the bottom */
-  right: 20px; /* Moves the section to the right */
+  bottom: 70px; /* Moves the section to the bottom */
+  right: 70px; /* Moves the section to the right */
 }
 
 .gallery-container {
