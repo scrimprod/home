@@ -24,7 +24,7 @@ body {
 }
 
 header {
-    text-align: center;
+    text-align: left;
     margin-bottom: 20px;
 }
 
@@ -43,7 +43,7 @@ main {
 }
 
 footer {
-    text-align: center;
+    text-align: left;
     border-top: 1px solid #000;
     padding-top: 10px;
 }
