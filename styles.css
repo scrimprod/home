@@ -46,6 +46,6 @@ main {
 
 footer {
     text-align: left;
-    border-top: 1px solid #000;
+    border-top: 0px solid #000;
     padding-top: 10px;
 }
