@@ -28,11 +28,11 @@ body {
 }
 
 #home, #about, #gallery, #contact {
-  margin-bottom: 50px; /* Adds space between sections */
+  margin-bottom: 80px; /* Adds space between sections */
 }
 
 #gallery {
-  margin-top: 100px; /* Adjust this value to move the section down */
+  margin-top: 120px; /* Adjust this value to move the section down */
 }
 
 #contact {
@@ -45,6 +45,45 @@ body {
   display: flex;
   overflow-x: auto; /* Enables horizontal scrolling */
   scroll-snap-type: x mandatory; /* Optional: for snap scrolling */
+}
+
+.gallery-item {
+  flex: 0 0 auto;
+  width: 200px; /* Adjust the width as needed */
+  margin-right: 10px; /* Spacing between images */
+  scroll-snap-align: start; /* Optional: for snap scrolling */
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+header {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+main {
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: left;
+    border-top: 0px solid #000;
+    padding-top: 10px;
 }
 
 .gallery-item {
