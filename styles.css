@@ -7,7 +7,9 @@ body {
   background-image: url('Images/Jackie_Poster.png'); /* Ensure the path is correct */
   background-position: center; /* Position the background image to the right */
   background-repeat: no-repeat;  /* Ensure the image does not repeat */
-  background-size: 50px 50px;;         /* Adjust this as needed */
+  background-position-x: center; 
+  background-position-y: center;
+  background-size: auto;         /* Adjust this as needed */
 }
 
     font-family: 'Comic Sans MS', cursive, sans-serif;
