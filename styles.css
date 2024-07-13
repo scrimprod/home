@@ -28,11 +28,11 @@ body {
 }
 
 #home, #about, #gallery, #contact {
-  margin-bottom: 80px; /* Adds space between sections */
+  margin-bottom: 100px; /* Adds space between sections */
 }
 
 #gallery {
-  margin-top: 120px; /* Adjust this value to move the section down */
+  margin-top: 250px; /* Adjust this value to move the section down */
 }
 
 #contact {
