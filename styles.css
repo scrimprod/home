@@ -27,12 +27,12 @@ body {
   min-height: 100vh; /* Ensures container takes at least the height of the viewport */
 }
 
-#home, #about, #gallery, #contact {
+#about, #gallery, #contact {
   margin-bottom: 100px; /* Adds space between sections */
 }
 
 #gallery {
-  margin-top: 250px; /* Adjust this value to move the section down */
+  margin-top: 600px; /* Adjust this value to move the section down */
 }
 
 #contact {
