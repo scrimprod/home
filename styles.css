@@ -16,14 +16,12 @@ html, body {
 }
 
 body {
-  font-family: 'Comic Sans MS', cursive, sans-serif;
-  color: #0000ff;
-  background-image: url('https://github.com/scrimprod/home/blob/main/Images/Jackie_Poster.png');
-  background-position: right top;
-  background-repeat: no-repeat;
-  background-size: auto;
+  background-image: url('Images/Jackie_Poster.png'); /* Ensure the path is correct */
+  background-position: top center; /* Position the background image to the right */
+  background-repeat: no-repeat;  /* Ensure the image does not repeat */
+  background-size: auto;         /* Adjust this as needed */
+  opacity: 0;
   animation: fadeIn 10s ease-in-out;
-}
 
 @keyframes fadeIn {
     0% { opacity: 0; }
