@@ -22,7 +22,7 @@ body {
   background-position: right top;
   background-repeat: no-repeat;
   background-size: auto;
-  animation: fadeIn 10s ease-in-out; /* Apply the fade-in animation */
+  animation: fadeIn 10s ease-in-out;
 }
 
 @keyframes fadeIn {
