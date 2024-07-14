@@ -1,39 +1,35 @@
 html {
   scroll-behavior: smooth;
 }
-
 html, body {
   height: 150%;
   margin: 0;
 }
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
 
 body {
+    opacity: 0;
+  animation: fadeIn 10s forwards;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+
   background-image: url('Images/Jackie_Poster.png'); /* Ensure the path is correct */
   background-position: top center; /* Position the background image to the right */
   background-repeat: no-repeat;  /* Ensure the image does not repeat */
   background-size: auto;         /* Adjust this as needed */
   opacity: 0;
-  animation: fadeIn 10s ease-in-out;
-
+  animation: fadeIn 10s forwards;
+}
 @keyframes fadeIn {
     0% { opacity: 0; }
     100% { opacity: 1; }
 }
-
 }
-
     font-family: 'Comic Sans MS', cursive, sans-serif;
     color: #0000ff;
 }
-
 .container {
   width: 800px;
   margin: 0 auto;
@@ -42,145 +38,116 @@ body {
   border: 2px solid #000;
   min-height: 100vh; /* Ensures container takes at least the height of the viewport */
 }
-
 #about, #gallery, #contact {
   margin-bottom: 100px; /* Adds space between sections */
 }
-
 #gallery {
   margin-top: 600px; /* Adjust this value to move the section down */
 }
-
 #contact {
   position: absolute;
   bottom: 70px; /* Moves the section to the bottom */
   right: 70px; /* Moves the section to the right */
 }
-
 .gallery-container {
   display: flex;
   overflow-x: auto; /* Enables horizontal scrolling */
   scroll-snap-type: x mandatory; /* Optional: for snap scrolling */
 }
-
 .gallery-item {
   flex: 0 0 auto;
   width: 200px; /* Adjust the width as needed */
   margin-right: 10px; /* Spacing between images */
   scroll-snap-align: start; /* Optional: for snap scrolling */
 }
-
 .gallery-item img {
   width: 100%;
   height: auto;
   display: block;
 }
-
-
 header {
     text-align: left;
     margin-bottom: 20px;
 }
-
 nav ul {
     list-style-type: none;
     padding: 0;
 }
-
 nav ul li {
     display: inline;
     margin-right: 10px;
 }
-
 main {
     margin-bottom: 20px;
 }
-
 footer {
     text-align: left;
     border-top: 0px solid #000;
     padding-top: 10px;
 }
-
 .gallery-item {
   flex: 0 0 auto;
   width: 200px; /* Adjust the width as needed */
   margin-right: 10px; /* Spacing between images */
   scroll-snap-align: start; /* Optional: for snap scrolling */
 }
-
 .gallery-item img {
   width: 100%;
   height: auto;
   display: block;
 }
-
-
 header {
     text-align: left;
     margin-bottom: 20px;
 }
-
 nav ul {
     list-style-type: none;
     padding: 0;
 }
-
 nav ul li {
     display: inline;
     margin-right: 10px;
 }
-
 main {
     margin-bottom: 20px;
 }
-
 footer {
     text-align: left;
     border-top: 0px solid #000;
     padding-top: 10px;
 }    margin-bottom: 20px;
 }
-
 footer {
     text-align: left;
     border-top: 0px solid #000;
     padding-top: 10px;
 }
-
 .gallery-item {
   flex: 0 0 auto;
   width: 200px; /* Adjust the width as needed */
   margin-right: 10px; /* Spacing between images */
   scroll-snap-align: start; /* Optional: for snap scrolling */
 }
-
 .gallery-item img {
   width: 100%;
   height: auto;
   display: block;
 }
-
-
 header {
     text-align: left;
     margin-bottom: 20px;
 }
-
 nav ul {
     list-style-type: none;
     padding: 0;
 }
-
 nav ul li {
     display: inline;
     margin-right: 10px;
 }
-
 main {
     margin-bottom: 20px;
 }
-
 footer {
     text-align: left;
     border-top: 0px solid #000;
